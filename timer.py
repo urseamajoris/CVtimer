@@ -79,8 +79,8 @@ def summary(intervals):
 
 def intervals(intervals):
     for i in range(intervals):
-        clock(10, focus=True)
-        clock(3, focus=False)        
+        clock(1500, focus=True)
+        clock(300, focus=False)        
     summary(intervals)
 
 rounds = input('put in intervals:')
